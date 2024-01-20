@@ -1,6 +1,20 @@
 #!/usr/bin/python3
 
+"""
+This script defines a function minOperations to calculate
+the fewest number of operations needed to result in exactly n H characters.
+"""
+
 def minOperations(n):
+    """
+    Calculate the fewest number of operations needed to reach exactly n 'H' characters.
+
+    Args:
+        n (int): The target number of 'H' characters.
+
+    Returns:
+        int: The minimum number of operations.
+    """
     if n <= 1:
         return 0
 
